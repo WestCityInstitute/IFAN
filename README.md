@@ -12,7 +12,7 @@
 
 This repository contains the official PyTorch implementation of the following paper:
 
-> **[Iterative Filter Adaptive Network for Single Image Defocus Deblurring](http://cg.postech.ac.kr/papers/2020_CGI_JY.pdf)**<br>
+> **[Iterative Filter Adaptive Network for Single Image Defocus Deblurring](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Iterative_Filter_Adaptive_Network_for_Single_Image_Defocus_Deblurring_CVPR_2021_paper.pdf)**<br>
 > Junyong Lee, Hyeongseok Son, Jaesung Rim, Sunghyun Cho, Seungyong Lee, CVPR 2021
 
 
@@ -66,7 +66,7 @@ This repository contains the official PyTorch implementation of the following pa
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-16.0.4%20&%2018.0.4-blue.svg?style=plastic)
 ![Python](https://img.shields.io/badge/Python-3.8.8-green.svg?style=plastic)
-![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1%20&%201.8.0-green.svg?style=plastic)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1%20&%201.8.0%20&1.9.0-green.svg?style=plastic)
 ![CUDA](https://img.shields.io/badge/CUDA-10.2%20&%2011.1-green.svg?style=plastic)
 
 1. **Environment setup**
@@ -74,7 +74,7 @@ This repository contains the official PyTorch implementation of the following pa
     $ git clone https://github.com/codeslake/IFAN.git
     $ cd IFAN
 
-    $ conda create -y --name IFAN python=3.6 && conda activate IFAN
+    $ conda create -y --name IFAN python=3.8 && conda activate IFAN
     # for CUDA10.2
     $ sh install_CUDA10.2.sh
     # for CUDA11.1
@@ -171,8 +171,8 @@ All material related to our paper is available by following links:
 
 | Link |
 | :-------------- |
-| [The main paper]() |
-| [Supplementary](https://www.dropbox.com/s/6wv6ppxsaofbix6/IFAN_supp.pdf?dl=1) |
+| [The main paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Iterative_Filter_Adaptive_Network_for_Single_Image_Defocus_Deblurring_CVPR_2021_paper.pdf) |
+| [Supplementary](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Lee_Iterative_Filter_Adaptive_CVPR_2021_supplemental.pdf) |
 | [Checkpoint Files](https://www.dropbox.com/s/qohhmr9p81u0syi/checkpoints.zip?dl=1) |
 | [The DPDD dataset](https://www.dropbox.com/s/w9urn5m4mzllrwu/DPDD.zip?dl=1) ([reference](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel)) |
 | [The PixelDP test set](https://www.dropbox.com/s/pw7w2bpp7pc410n/PixelDP.zip?dl=1) ([reference](https://ln2.sync.com/dl/ec54aa480/b28q2xma-9xa3w5tx-ss2cv7dg-2yx935qs/view/default/10770664900008)) |
