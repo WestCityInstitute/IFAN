@@ -3,7 +3,7 @@
 
 ***Checkout for the demo ([GUI](https://YJ5YKNVB7BY5PN7Y.anvil.app/KNK4MOE27FW3VZNDQUNHAJAY)/[Google Colab](https://colab.research.google.com/drive/1DmazbJPUlx4MF9-Z9llvddlywxlLWxsX?usp=sharing))!***
 <br/>*The GUI version might occasionally be offline*
-    
+
 <!-- ***Checkout for the demo in [Google Colab](https://colab.research.google.com/drive/1DmazbJPUlx4MF9-Z9llvddlywxlLWxsX?usp=sharing)*** -->
 
 <p align="center">
@@ -66,7 +66,7 @@ This repository contains the official PyTorch implementation of the following pa
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-16.0.4%20&%2018.0.4-blue.svg?style=plastic)
 ![Python](https://img.shields.io/badge/Python-3.8.8-green.svg?style=plastic)
-![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1%20&%201.8.0%20&1.9.0-green.svg?style=plastic)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1%20&%201.8.0%20&%201.9.0-green.svg?style=plastic)
 ![CUDA](https://img.shields.io/badge/CUDA-10.2%20&%2011.1-green.svg?style=plastic)
 
 1. **Environment setup**
@@ -104,7 +104,7 @@ This repository contains the official PyTorch implementation of the following pa
         │   ├── IFAN.pytorch
         │   ├── ...
         │   ├── IFAN_dual.pytorch
-        ``` 
+        ```
 
 ## Testing models of CVPR2021
 
@@ -143,7 +143,7 @@ CUDA_VISIBLE_DEVICES=0 python run.py --mode IFAN_dual --network IFAN_dual --conf
 * Options
     * `--data`: The name of a dataset to evaluate. `DPDD` | `RealDOF` | `CUHK` | `PixelDP` | `random`. Default: `DPDD`
         * The folder structure can be modified in the function [`set_eval_path(..)`](https://github.com/codeslake/IFAN/blob/main/configs/config.py#L114-L139) in `./configs/config.py`.
-        * `random` is for testing models with any images, which should be placed as `[DATASET_ROOT]/random/*.[jpg|png]`. 
+        * `random` is for testing models with any images, which should be placed as `[DATASET_ROOT]/random/*.[jpg|png]`.
 
 ## Wiki
 * [Logging](https://github.com/codeslake/IFAN/wiki/Log-Details)
@@ -185,8 +185,8 @@ This software is being made available under the terms in the [LICENSE](LICENSE) 
 Any exemptions to these terms require a license from the Pohang University of Science and Technology.
 
 ## About Coupe Project
-Project ‘COUPE’ aims to develop software that evaluates and improves the quality of images and videos based on big visual data. To achieve the goal, we extract sharpness, color, composition features from images and develop technologies for restoring and improving by using them. In addition, personalization technology through user reference analysis is under study.  
-    
+Project ‘COUPE’ aims to develop software that evaluates and improves the quality of images and videos based on big visual data. To achieve the goal, we extract sharpness, color, composition features from images and develop technologies for restoring and improving by using them. In addition, personalization technology through user reference analysis is under study.
+
 Please checkout other Coupe repositories in our [Posgraph](https://github.com/posgraph) github organization.
 
 ### Useful Links
